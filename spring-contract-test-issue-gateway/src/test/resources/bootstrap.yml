@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-test-gateway
+  cloud:
+    consul:
+      discovery:
+        enabled: false
+        register: false # Don't need to register

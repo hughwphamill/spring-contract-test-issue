@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false # Use Reactive Load Balancer
+stubrunner:
+  idsToServiceIds:
+    spring-contract-test-issue-contracts: external-service
+debug: true

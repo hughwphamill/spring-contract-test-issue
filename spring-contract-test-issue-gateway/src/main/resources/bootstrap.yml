@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-test-gateway
+  cloud:
+    consul:
+      host: localhost
+      port: 8501
+      config:
+        enabled: true # Turn off for testing
+      discovery:
+        enabled: true
+        register: false # Don't need to register
