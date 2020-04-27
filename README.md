@@ -1,1 +1,1 @@
-# spring-contract-test-issue-contracts
+# spring-contract-test-issue
